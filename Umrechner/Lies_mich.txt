@@ -1,7 +1,0 @@
-Python sollte von www.python.org schon installiert und einsatzfähig sein.
-
-Nach dem Entpacken bitte erstmal die im Verzeichnis liegende
-
-	start.bat
-
-ausführen, um alle Abhängigkeiten aufzulösen.

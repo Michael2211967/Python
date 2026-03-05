@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Leistungs-Umrechner
-Comment=Ein einfacher Umrechner für kW und PS in Tkinter
-Exec=/home/norbert/Python/umrechner/power.pyw
-Icon=/home/norbert/Python/umrechner/power.png
-Type=Application
-Terminal=false
-Categories=Utility;Calculator;

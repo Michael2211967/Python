@@ -3,9 +3,12 @@
  # Datum gibt das aktuelle Datum und die Zeit
  # in deutschem Format aus
 
+from collections import namedtuple
 import sys
 import os
 import time
+
+greets = namedtuple('greets', ['greeting', 'weekday', 'day', 'month', 'year', 'hour', 'minute', 'second'])
 
 def datetime():
     month = ["Januar", "Februar", "März", "April", "Mai", "Juni",\
@@ -52,10 +55,10 @@ def datetime():
         Begr += f"\nFrohe Weihnachten {user}!"
     if month_int == 12 and day == 31:
         Begr += "\nIch wünsche eine feuchtfröhliche Silvester-Party!"
-    return ([Begr, wtage[week], day, month[month_int-1], year, hour, minute, second])
+    return greets(Begr, wtage[week], day, month[month_int-1], year, hour, minute, second)
 #      Begrüßung, Datum und Uhrzeit werden auf Standardgerät ausgegeben:
 
 if __name__ == "__main__":
     date = datetime()
-    print(f"\n{date[0]}")
-    print(f"\nHeute ist {date[1]}, der {date[2]}. {date[3]} {date[4]}. Es ist {date[5]:02d}:{date[6]:02d}:{date[7]:02d} Uhr\n")
+    print(f"\n{date.greeting}")
+    print(f"\nHeute ist {date.weekday}, der {date.day}. {date.month} {date.year}. Es ist {date.hour:02d}:{date.minute:02d}:{date.second:02d} Uhr\n")

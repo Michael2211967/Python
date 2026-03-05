@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Längen-Umrechner
+Comment=Ein einfacher Umrechner für Zoll und cm in Tkinter
+Exec=/opt/Umrechner/length.pyw
+Icon=/opt/Umrechner/length.png
+Type=Application
+Terminal=false
+Categories=Utility;Calculator;

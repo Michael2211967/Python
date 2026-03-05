@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -e
+
+python3 -m compileall /opt/Umrechner
+
+exit 0

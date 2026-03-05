@@ -1,0 +1,6 @@
+print("Anfang des Programms")
+name = input("Bitte dein Name eingeben: ")
+age = input("Bitte dein Alter eingeben: ")
+print("Mein Name ist " + name + ",")
+print("ich bin " + age + " Jahre alt")
+print("Ende des Programms")

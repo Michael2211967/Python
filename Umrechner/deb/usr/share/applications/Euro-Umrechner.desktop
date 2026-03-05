@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Euro-Umrechner
+Comment=Ein einfacher Umrechner für Euro und DM in Tkinter
+Exec=/opt/Umrechner/euro.pyw
+Icon=/opt/Umrechner/euro.png
+Type=Application
+Terminal=false
+Categories=Utility;Calculator;

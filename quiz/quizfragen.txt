@@ -1,0 +1,5 @@
+Wie viele Beine hat eine Spinne?;8
+Welcher Planet ist der Rote Planet?;Mars
+Was ist die Hauptstadt von Frankreich?;Paris
+Womit begann 1789 die Französische Revolution?;Sturm auf die Bastille
+Was ist 2 + 2?;4

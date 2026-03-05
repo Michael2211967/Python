@@ -1,0 +1,7 @@
+node_modules
+__pycache__
+.idea
+.ipynb_checkpoints
+.vscode
+Adressenverwaltung/
+Lotto/
